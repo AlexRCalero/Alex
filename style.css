@@ -1,0 +1,188 @@
+
+    header {
+        display: flex;
+        align-items: center;
+        background-color: #b5e869;
+        padding: 20px;
+      }
+      img{
+        width: 200px;
+        height: 200px;
+    }  
+      nav ul {
+        list-style: none;;
+        display: flex;
+      }
+      
+      nav ul li {
+        margin-right: 20px;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: #333;
+        padding: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      nav ul li a:hover {
+        color: #000;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+      body{
+        padding: 20px;
+        background-color: #d5dca6;
+      }
+  
+
+      .container {
+        display: flex;
+        align-items: center;
+      }
+      
+      .imagen {
+        flex: 0 0 50%; 
+      }
+      
+      .image img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .text {
+        flex: 0 0 50%; 
+        padding: 0 20px; 
+      }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    .bio-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+  
+    
+        
+        h1 {
+            text-align: center;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .column{
+            flex: 1;
+            width: 50%;
+        }
+        
+        .producto {
+            display: flex;
+            margin-bottom: 20px;
+            height: auto;
+            width: auto;
+        }
+
+        .imagen {
+            flex: 1;
+            transition: transform 0.3s;
+            transform-origin: left;
+        }
+        
+        .imagen img {
+            max-width: 100%;
+            height: auto;
+        }
+        .imagen:hover{
+            transform: scale(1.1) translate( -10%, -10%);
+        }
+        
+        .informacion {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+        footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .producto {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .imagen img {
+       max-width: 100%;
+    }
+    
+    .informacion {
+        flex: 2;
+        padding-left: 20px;
+    }
